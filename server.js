@@ -15,7 +15,7 @@ app.get('/', (req,res) => {
 })
 
 app.get('/sign-in', (req,res) => {
-    res.sendFile(path.join(__dirname, 'views', 'form.html'))
+    res.sendFile(path.join(__dirname, 'form.html'))
 })
 
 app.post('/email', (req,res) => {
